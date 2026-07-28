@@ -1,0 +1,18 @@
+.col-sm-4 ul{
+    list-style-type:none;
+}
+.col-sm-4 ul li a{
+    text-decoration: none;
+    text-decoration-line: none;
+    padding-left: 5px;
+}
+.col-sm-4 ul li{
+    display: inline-block;
+}
+.col-sm-4{
+height: 50px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+margin-top: 7px;
+}
