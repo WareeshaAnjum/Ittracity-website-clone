@@ -1,18 +1,160 @@
-.col-sm-4 ul{
+*{
+    padding: 0;
+    margin: 0;
+}
+#brand{
+display: flex;
+margin-top: 7px;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: contain ;
+    object-fit: cover;
+}
+
+#nav ul{
     list-style-type:none;
 }
-.col-sm-4 ul li a{
+#nav ul li a{
     text-decoration: none;
     text-decoration-line: none;
     padding-left: 5px;
 }
-.col-sm-4 ul li{
+#nav ul li{
     display: inline-block;
+    padding-left: 24px;
 }
-.col-sm-4{
-height: 50px;
+#nav{
 display: flex;
 justify-content: space-between;
-margin-bottom: 10px;
-margin-top: 7px;
+align-items: center;
+font-size: 15px;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    
+
+ 
+}
+
+#icons i{
+       padding-right: 40px;
+       height:40px;
+    width:40px;
+       border-radius: 50%;
+    border: solid 1px;
+}
+.fa-regular{
+    align-items: center;
+    margin:10px;
+}
+#slideBan{
+    background-color:#987633;
+    height:40px;     
+}
+
+marquee span{
+    display: inline-block;
+    padding-left: 60px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+ #bodyHead{
+  font-family: "Playfair", serif;
+  font-size: 130px;
+  font-weight:300 ;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 112.5;
+}
+
+#shopbtn{
+    margin-right: 12px;
+    padding: 10px 43px; 
+    background-color: #ab863b;
+     color: white;
+     border: 0px;
+}
+#storybtn{
+      padding: 8px 45px;
+      border: #ab863b solid 2px;
+      color:#ab863b ;
+      background: #ffff;
+}
+
+#picbg{
+    height:450px;
+    width:500px;
+    object-fit:fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smHead{
+   font-family: 'Space Mono', monospace; 
+   font-size: 15px;
+   color: #ab863b;
+}
+.frag{
+    margin-left: 80px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin-top: 20px;
+    height: 240px;
+    width: 250px;
+    border: 1px solid rgb(198, 200, 201);
+}
+
+.card img{
+    height: 170px;
+    width: 250px;
+    object-fit: cover;
+    background-color: #987633;    
+}
+
+#title1{
+    height: 100px;
+    width:250px;
+    text-align: center;
+    margin-top: 10px;
+}
+#title2{
+    height: 100px;
+    width:250px;
+    text-align: center;
+    margin-top: 10px;
+}
+#title3{
+    height: 100px;
+    width:250px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bscard{
+    margin-top: 20px;
+    height: 500px;
+    width: 300px;
+    border: 1px solid rgb(192, 203, 215);
+
+}
+
+.bscard img{
+    height:350px;
+    width:300px;
+    object-fit: cover;
 }

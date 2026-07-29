@@ -6,39 +6,130 @@
     <title>iitracity</title>
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Momo+Signature&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Playwrite+NZ+Guides&family=Poppins&family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
   </head>
   <body>
     <div class="container-fluid">
       <!--outer start-->
-      <div class="row bg-light py-2 px-2">
+      <div class="row bg-light py-2">
         <!--header start-->
-        <div class="col-sm-4">
-          <div class="col-sm-1 text-end">
+        <div class="col-sm-4" id="brand">
+          <div class="col-sm-3 text-end">
             <img
               src="./images/logo.webp"
-              class="img-fluid mb-2 mt-2"
+              class="img-fluid mb-2 mt-2" id="logo"
               style="max-height: 50px"
             />
           </div>
-          <div class="col-sm-11 fs-2 px-5 ">
-            <h3 style="font-size: 30px">IttraCity</h3>
-            <h6>Exquisite Fragrance</h6>
+          <div class="col-sm-11 fs-2 px-2">
+            <h3 style="font-size: 20px;font-family: 'Playfair', serif;">IttraCity</h3>
+            <h6 style="font-size: 15px;">Exquisite Fragrance</h6>
           </div>
         </div>
-        <div class="col-sm-4">
-          <ul class="mt-1">
+        <div class="col-sm-4" id="nav">
+          <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
-        <div class="col-sm-4"></div>
-        <!--header end-->
-      </div>
+        <div class="col-sm-4" id="icons">
+            <i class="fa-brands fa-sistrix"></i>
+            <i class="fa-regular fa-heart"></i>
+           <i class="fa-regular fa-briefcase"></i>
+            <i class="fa-regular fa-user"></i>
+            <!--logo icons---> </div>
+      </div>  <!--header end-->
 
-      <!--outer end-->
+     <div class="row" id="slideBan">
+        <marquee behavior="" direction="" speedamount="30" >
+            <span>Crafted in Kannauj — IttraCity the Legacy of 500+ Years</span>  <span>Crafted in Kannauj — IttraCity the Legacy of 500+ Years </span>  <span> Crafted in Kannauj — IttraCity the Legacy of 500+ Years</span>
+        </marquee>
+     </div>
+     
+     <div class="row py-3 mt-2 ms-5">
+        <div class="col-sm-1 text-end ms-5 "><hr></div>
+        <div class="col-sm-2 smHead">WELCOME TO ITTARCITY</div>
+     </div> 
+
+
+     <div class="row"><!--body section start-->
+    <div class="col-sm-6">
+      <!--left body-->
+      <div class="row" style="margin-left: 50px; padding-left: 48px;">
+      <h1 style="font-size: 80px; font-weight: 500; font-family: 'Playfair', serif; ">Experience the Art of <span style="color:#ab863b;">Fragrance</span></h1>
+      <div class="col-sm-7">Discover premium attars and perfumes crafted for elegance and lasting impressions.</div>
+    <div class="col-sm-9 mt-5" id="btns"><button id="shopbtn">Shop Collection</button> <button id="storybtn">Our Story</button></div>
     </div>
+    </div>
+    <!--body right-->
+    <div class="col-sm-6" >
+      <img src="./images/firstpic.webp"
+      id="picbg" class="offset-3 mt-5 px-3 mb-5"/>
+    </div>
+     </div><!--body section end-->
+     <div class="row bg-light"><!--fragrance collection start-->
+      <div class="row smHead" style="display: flex; justify-content: center;align-items: center; padding-left:40px; font-size: 20px; margin-top:40px;">
+        Browse by Category
+      </div>
+      <div class="row mt-2">
+        <h6 style="font-size: 40px; font-weight: 400; font-family: 'Playfair', serif; text-align: center; "> Our  <span style="color:#ab863b;"> Fragrance </span> Collections </h6>
+      <hr class="col-sm-1 offset-5" style="text-align: center;">
+      </div>
+     <!--small cards fragrance--> <div class="col-sm-7 frag" >
+        <div class="card">
+     <img src="./images/smIttar1.webp" />
+     <div id="title1">Modern Ittar
+      <h6 style="margin-top: 5px;">Explore Items</h6>
+     </div>
+     </div>
+     <div class="card">
+     <img src="./images/smittar2.webp"/>
+     <div id="title2">Natural Ittar
+      <h6 style="margin-top: 5px;">Explore Items</h6>
+     </div>
+     </div>
+      <div class="card">
+     <img src="./images/smittar3.webp"/>
+     <div id="title3">Perfume
+      <h6 style="margin-top: 5px;">Explore Items</h6>
+     </div>
+       </div>
+         </div> <!--small cards fragrance ends-->
+     </div> <!--fragrance collection ends--->
+
+     <div class="row bg-light"><!--best selling products starts-->
+     <div class="row ms-5" style="padding-left: 70px; font-weight: 700; font-size: 20px; margin-top:40px; color:#ab863b; font-family: 'Courier New', Courier, monospace;">TOP PICKS</div>
+     <div class="row">
+      <div class="col-sm-8 ms-4 mt-3">
+      <h5 style="font-size: 40px; font-weight: 400; font-family: 'Playfair', serif; padding-left: 75px; ">Best  <span style="color:#ab863b;"> Selling </span> Products</h5>
+     <span style="padding-left: 70px; margin-top: 0px;">________</span>
+    </div>
+    <div class="col-sm-3 ms-5 mt-5"><button style="padding: 10px 30px; color:#ab863b; background-color: white ; border:1px solid #ab863b">VIEW ALL -></button></div>
+     </div>
+     <div class="col-sm-8 frag">
+      <div class="bscard">
+        <img src="./images/smIttar1.webp">
+        <div id="bstext"> </div>
+      </div>
+      <div class="bscard">
+        <img src="./images/smittar2.webp">
+        <div id="bstext"> </div>
+      </div>
+      <div class="bscard">
+        <img src="./images/smittar3.webp">
+        <div id="bstext"> </div>
+      </div>
+     </div>
+     </div><!--best selling products ends-->
+
+    </div> <!--outer end-->
 
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/script.js"></script>
