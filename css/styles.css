@@ -147,14 +147,22 @@ marquee span{
 
 .bscard{
     margin-top: 20px;
-    height: 500px;
+    height: 535px;
     width: 300px;
     border: 1px solid rgb(192, 203, 215);
-
+  border-radius: 2%;
 }
 
 .bscard img{
     height:350px;
     width:300px;
     object-fit: cover;
+    border-radius: 3% 3% 0% 0%;
+}
+
+.whycard{
+    height:350px;
+    width:300px;
+    border-radius: 3% 3% 0% 0%;
+    border:2px solid #987633;
 }
